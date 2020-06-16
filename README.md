@@ -1,2 +1,2 @@
 # portfolio
-This repo holds my protfolio!
+This repo holds my protfolio website!
