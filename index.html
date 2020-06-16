@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav id="main-nav" class="flex items-center justify-between">
+                <div class="left flex items-center">
+                    <div class="branding">
+                        <img src="./images/logo.png">
+                    </div>
+                    <div>
+                        <a href="#">Home</a>
+                        <a href="#about">About Me</a>
+                        <a href="#education">Education</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#works">Experience</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <a href="#contact">
+                        <button class='btn btn-primary'>Contact</button>
+                    </a>
+                </div>
+            </nav>
+            <div class="hero flex items-center justify-between">
+                <div class="left flex-1 flex justify-center">
+                    <img src="./images/man.jpg" alt="it's me">
+                </div>
+                <div class="right flex-1">
+                    <h6>Tushar Kumar</h6>
+                    <h1>I'm a Software <span>Developer</span></h1>
+                    <p class="right-quote">	
+                        Design and programming are human activities; forget that 
+                        and all is lost.
+                    </p>
+                    <p>
+                        --Bjarne Stroustrup
+                    </p>
+                    <div>
+                        <a href="./resume/TusharKumar_Resume.pdf" target="_blank">
+                            <button class="btn btn-secondary">RESUME</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id= "about" class="about">
+        <div class="container flex items-center">
+            <div class="flex-1">
+                <img class="about-me-img" src="./images/man-2.jpg">
+            </div>
+            <div class="flex-1">
+                <h1>About <span>Me</span></h1>
+                <p class="text-align">
+                    I am Tushar Kumar, an Information Science graduate from The University of Texas at Dallas.
+                    My area of interest is data structues and algorithms. I love to spend time with 
+                    code, try to understand it's flow, and make it more maintainable and easy to understand. 
+                    I try to use my experience while coding to make the product more robust, scalable and 
+                    have great performance.
+                </p>
+                <p class="text-align"> 
+                    My rich experience and exposure to multiple coding platforms make me easy to go with any 
+                    new software language or frameworks. I have experience in object-oriented programming as 
+                    well as functional programming.I have hands on experience in developing RESTful API's 
+                    using Flask and Django frameowrks.
+                </p>
+                <div class="social">
+                    <a href="#"><img src="./images/website.png"></a>
+                    <a href="https://www.facebook.com/tusharkumar2805" target="_blank"><img src="./images/facebook.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/2805tusharkumar/" target="_blank"><img src="./images/linkedin-small.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="education">
+        <h1>Education</h1>
+        <div class="details">
+            <h2>Master of Science in Information Science</h2>
+            <h4>University of Texas at Dallas</h4>
+            <h5>Aug' 2010 - Jun' 2014</h5>
+            <h3>GPA: 3.70/4.0</h3>
+        </div>
+        <div class="details">
+            <h2>Bachelor of Engineering in Electronics and Communications</h2>
+            <h4>Visvesvaraya Technological University</h4>
+            <h5>Aug' 2018 - May' 2020</h5>
+            <h3>GPA: 3.60/4.0</h3>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h1 class="skill-heading"><span>My</span> Skills</h1>
+            <div class="skill-wrapper">
+                <div class="skill">
+                    <h2>Programming & Database Technologies</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>C++</li>
+                        <li>SQL</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h2>Web Technologies and Design Skills</h2>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>REST</li>
+                        <li>Bootstrap 4</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h2>Frameworks & Libraries</h2>
+                    <ul>
+                        <li>Flask</li>
+                        <li>Django</li>
+                        <li>React JS</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h2>Tools & IDE</h2>
+                    <ul>
+                        <li>AWS</li>
+                        <li>Hadoop</li>
+                        <li>Spark</li>
+                        <li>Postman</li>
+                        <li>Parasoft SOA</li>
+                        <li>Visual Studio Code</li>
+                        <li>Sublime Text 3</li>
+                        <li>Git/Jenkins</li>
+                        <li>R Studio</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h1 class="section-heading"><span>My</span> Projects</h1>
+            <p>These projects are done during my masters</p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="./images/re-ht-cs.png">
+                    <h2>E-Commerce Web Application</h2>
+                    <ol>
+                        <li>Devised and developed a simple E-commerce web application for purchasing mobile phones.</li>
+                        <li>Implemented dynamic retrieval of data based on user search using <span>ReactJS</span>.</li>
+                        <li>Utilized windows local storage for temporary storage of data.</li>
+                        <li>Designed an effective UI by optimizing page speed using <span>HTML5</span>, <span>CSS3</span> and <span>JavaScript</span>.</li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <img src="./images/pj-dj.png">
+                    <h2>Blogging Website</h2>
+                    <ol>
+                        <li>Implemented a blogging website application using <span>Django framework</span>.</li>
+                        <li>Performed all CRUD operations where user can update/delete their posts.</li>
+                        <li>Supports multiuser blogging, commenting, profile management and other operations.</li>
+                        <li>Established a back-end connection using <span>SQLite</span>.</li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <img src="./images/java.png">
+                    <h2>Pizza Point of Sale</h2>
+                    <ol>
+                        <li>Designed a Pizza point hub in <span>Java</span></li>
+                        <li>Simulated this restaurant employing object-oriented concepts like <span>Encapsulation, Inheritance and Polymorphism</span>.</li>
+                        <li>Implemented <span>GoF design patterns</span> namely – <span>Decorator</span> for adding toppings, <span>Builder</span> for specifying extras, <span>Factory</span> for creating pizzas and Template for forming pizza creation steps.</li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <img src="./images/rlogo.png">
+                    <h2>Bank data from Czech Republic</h2>
+                    <ol>
+                        <li>Performed data mining of customer details to understand criteria for loan sanction, the reason to default, along with behavior study on segments and demography in <span>R Studio</span>.</li>
+                        <li>Data were cleaned, reduced the dimensions and carried out <span>cluster analysis</span>, <span>logistic regression</span> and <span>association rules</span> to identify the issues and their solutions.</li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <img src="./images/sql.png">
+                    <h2>Online Hospital Management</h2>
+                    <ol>
+                        <li>Designed a <span>database</span> in <span>SQL Server Management</span> for medical personnel and patients of an Indian hospital to avoid loss of data due to manual entry and to store patient's medical history.</li>
+                        <li>Database was created using <span>SQL</span> queries and its performance was optimized using Indexes, joins, subqueries to store data and the database was placed on an online server to prevent the loss of data.</li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <img src="./images/ml.png">
+                    <h2>Regression and Classification</h2>
+                    <ol>
+                        <li>Performed <span>Supervised Machine Learning</span> on datasets downloaded from Kaggle </li>
+                        <li>Designing model for <span>Regression</span> and <span>Classification</span> task on two different data sets, to predict the accuracy score by implementing Grid Search and CV technique, Linear/Logistic Regression, Ridge, Lasso, KNN and SVM.</li>
+                        <li>Also, hyper tuning the parameters to predict the best models and derive insights by creating visualization using <span>matplotlib</span>.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="works" class="works">
+        <div class="container">
+            <h1 class="work-heading"><span>My</span> Experience</h1>
+
+            <div class="work-wrapper">
+                <div class="work">
+                    <img src="./images/accenture.png">   
+                    <div class="resp">
+                        <h4>Software Engineer</h4>
+                        <h5>Oct' 2014 - Jul' 2018</h5>
+                        <ul>
+                            <li>Developed RESTful web services in Python and integrated with SQL database for different clients.</li>
+                            <li>Designed and implemented the automation scripts in Python to aid manual and UAT test team.</li>
+                            <li>Automated daily build deployments and reduced process time 3-4 hours per build to 40-50 minutes.</li>
+                            <li>Defined REST API’s to automate project reporting and creation of new user profiles (reduced process time by 75%).</li>
+                            <li>Built the test framework by providing the key inputs.</li>
+                            <li>Used JIRA and Confluence to create and maintain user stories.</li>
+                            <li>Implemented new ideas such as maintaining a central repository for the dataset in order to improve the delivery process.</li>
+                            <li>Worked in Agile and Waterfall SDLC models.</li>
+                        </ul>
+                    </div>             
+                </div>
+                <div class="work">
+                    <img src="./images/wellmark.png">
+                    <div class="resp">
+                        <h4>BSA Intern</h4>
+                        <h5>May' 2019 - Nov' 2019</h5>
+                        <ul>
+                            <li>Developed, designed and built a web application for teams and employees performance using Django and MySQL.</li>
+                            <li>Assisted ERP systems users with data conversion, data validation, and development of test/UAT scripts.</li>
+                            <li>Prepared business user specifications for Central Repository project and worked with teams on technical specifications.</li>
+                            <li>Worked on how the data is transformed and loaded into the data warehouse through multiple transformations (sorter, joiner).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h1 class="contact-heading">Contact</h1>
+            <div class="contact-wrapper">
+                <div class="cont">
+                    <img src="./images/phn.png" alt="">
+                    <h2>Phone Number</h2>
+                    <h6>+1 469-931-8907</h6>
+                </div>
+                <div class="cont">
+                    <img src="./images/mail.png" alt="">
+                    <h2>Email</h2>
+                    <h6>tusharutd@gmail.com</h6>
+                </div>
+                <div class="cont">
+                    <img src="./images/git.png" alt="">
+                    <a href="https://github.com/tushar2805" target="_blank"><h2>GitHub</h2></a>
+                </div>
+                <div class="cont">
+                    <img src="./images/linkedin.png" alt="">
+                    <a href="https://www.linkedin.com/in/2805tusharkumar/" target="_blank"><h2>LinkedIn</h2></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            Developed by Tushar Kumar
+        </div>
+    </footer>
+</body>
+</html>
